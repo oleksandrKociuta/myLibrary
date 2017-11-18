@@ -21,4 +21,5 @@ Spring,
 Spring DATA, 
 Spring MVC,
 Spring boot, 
-JPA
+JPA,
+Java RX
