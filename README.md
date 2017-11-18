@@ -4,21 +4,21 @@ Theme:
 Library
 
 Opportunities:
-Booking
-Adding
+Booking,
+Adding,
 Deleting
 
 Tools:
-Intelij IDEA
-Tomcat
-Maven
-MySql WorkBench
+Intelij IDEA,
+Tomcat,
+Maven,
+MySql WorkBench,
 GIT
 
 Technologies:
-Java 
-Spring
-Spring DATA 
-Spring MVC
-Spring boot 
+Java, 
+Spring,
+Spring DATA, 
+Spring MVC,
+Spring boot, 
 JPA
