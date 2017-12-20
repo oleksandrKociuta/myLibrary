@@ -17,4 +17,12 @@ public class Book {
         this.name = name;
         this.type = type;
     }
+
+    @Override
+    public String toString() {
+        return "Book : " +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", type=" + type.getTypeTitle();
+    }
 }

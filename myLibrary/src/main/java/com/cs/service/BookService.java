@@ -16,7 +16,7 @@ public class BookService {
     @Autowired
     private BookDao dao;
 
-    public void addBook(String name, BookType type) {
+    public void addBook(String name, String type) {
         dao.createBook(name, type);
     }
 
@@ -32,7 +32,7 @@ public class BookService {
         return dao.getAllBooks();
     }
 
-    public void updateBook(Long id, String name, BookType type) {
+    public void updateBook(Long id, String name, String type) {
         dao.updateBook(id, name, type);
     }
 }

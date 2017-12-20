@@ -4,6 +4,7 @@ import com.cs.model.Book;
 import com.cs.model.BookType;
 import com.cs.service.BookService;
 import lombok.Setter;
+import org.apache.commons.lang3.StringUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
@@ -16,7 +17,10 @@ public class BookFacade {
     @Autowired
     private BookService service;
 
-    public void addBook(String name, BookType type) {
+    public void addBook(String name, String type) {
+        if (StringUtils.isBlank(name)) {
+            throw new RuntimeException();
+        }
         service.addBook(name, type);
     }
 
@@ -28,7 +32,10 @@ public class BookFacade {
         return service.getBooks();
     }
 
-    public void updateBook(Long id, String name, BookType type) {
+    public void updateBook(Long id, String name, String type) {
+        if (StringUtils.isBlank(name)) {
+            throw new RuntimeException();
+        }
         service.updateBook(id, name, type);
     }
 

@@ -22,7 +22,7 @@ public class BookDaoImpl implements BookDao {
     private BookMapper mapper;
 
     @Override
-    public void createBook(String bookName, BookType bookType) {
+    public void createBook(String bookName, String bookType) {
         String SQL = "INSERT INTO Book (name, type) VALUES (?, ?)";
         template.update(SQL, bookName, bookType);
 
@@ -47,7 +47,7 @@ public class BookDaoImpl implements BookDao {
     }
 
     @Override
-    public void updateBook(Long id, String name, BookType bookType) {
+    public void updateBook(Long id, String name, String bookType) {
         String SQL = "UPDATE Book SET name = ?, type = ? WHERE id = ?";
         template.update(SQL, name, bookType, id);
     }

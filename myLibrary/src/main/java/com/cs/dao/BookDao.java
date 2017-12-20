@@ -7,7 +7,7 @@ import java.util.Collection;
 
 public interface BookDao {
 
-    void createBook(String bookName, BookType bookType);
+    void createBook(String bookName, String bookType);
 
     Book getBook(Long id);
 
@@ -15,5 +15,5 @@ public interface BookDao {
 
     void deleteBook(Long id);
 
-    void updateBook(Long id, String name, BookType bookType);
+    void updateBook(Long id, String name, String bookType);
 }
