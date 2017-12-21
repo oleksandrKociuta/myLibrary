@@ -23,3 +23,9 @@ Spring MVC,
 Spring boot, 
 JPA,
 Java RX
+
+How to run: 
+1.Upload project
+2.Run as simply java project
+3.Open browser
+4.Call localhost:8080 - url
