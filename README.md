@@ -1,31 +1,32 @@
-My Computer System Project
+<h1>My Computer System Project</h1>
 
-Theme:
+<h2>Theme:</h2>
 Library
 
-Opportunities:
-Booking,
-Adding,
-Deleting
+<h2>Opportunities:</h2>
+1. Book Crud Operation
 
-Tools:
-Intelij IDEA,
-Tomcat,
-Maven,
-MySql WorkBench,
-GIT
+<h2>Tools:</h2>
 
-Technologies:
-Java, 
-Spring,
-Spring DATA, 
-Spring MVC,
-Spring boot, 
-JPA,
-Java RX
+1. Intelij IDEA
+2. Tomcat
+3. Maven
+4. MySql WorkBench
+5. GIT
 
-How to run: 
-1.Upload project
-2.Run as simply java project
-3.Open browser
-4.Call localhost:8080 - url
+<h2>Technologies:</h2>
+
+1. Java 
+2. Spring
+3. Spring DATA 
+4. Spring MVC
+5. Spring boot 
+6. JPA
+7. Java RX
+
+<h2>How to run:</h2>
+
+1. Upload project
+2. Run as simply java project 
+3. Open browser
+4. Call localhost:8080 - url
